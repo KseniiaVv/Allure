@@ -1,4 +1,5 @@
 package ru.netology.delivery.data;
+
 import com.github.javafaker.Faker;
 import lombok.Value;
 
@@ -8,7 +9,7 @@ import java.util.Locale;
 import java.util.Random;
 
 public class DataGenerator {
-    private  DataGenerator() {
+    private DataGenerator() {
     }
 
     public static String generateDate(int shift) {
